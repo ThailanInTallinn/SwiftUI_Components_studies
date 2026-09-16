@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct AppHeader: View {
+    var textToDisplay: String
+    
+    init(textToDisplay: String) {
+        self.textToDisplay = textToDisplay
+    }
     
     var body: some View {
-        
+        VStack(alignment: .leading, spacing: 4) {
+            Text(self.textToDisplay)
+                .font(.title)
+        }
     }
 }

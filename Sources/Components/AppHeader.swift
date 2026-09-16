@@ -19,11 +19,13 @@ public struct AppHeader: View {
         HStack {
             Text(self.textToDisplay)
                 .font(.system(size: 40, weight: .bold))
-                .foregroundStyle(Color.white)
+                .foregroundStyle(Color.black)
             Spacer()
-            Color.clear
         }
         .padding()
+        .background {
+            Color.clear
+        }
     }
 }
 

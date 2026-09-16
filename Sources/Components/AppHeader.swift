@@ -21,11 +21,9 @@ public struct AppHeader: View {
                 .font(.system(size: 40, weight: .bold))
                 .foregroundStyle(Color.white)
             Spacer()
+            Color.clear
         }
         .padding()
-        .background {
-            Color.clear.opacity(0.0)
-        }
     }
 }
 

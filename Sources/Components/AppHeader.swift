@@ -19,6 +19,8 @@ public struct AppHeader: View {
         VStack(alignment: .leading, spacing: 4) {
             Text(self.textToDisplay)
                 .font(.title)
+            Spacer()
         }
+        .padding()
     }
 }

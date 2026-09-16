@@ -11,7 +11,7 @@ public struct AppHeader: View {
     
     var textToDisplay: String
     
-    init(textToDisplay: String) {
+    public init(textToDisplay: String) {
         self.textToDisplay = textToDisplay
     }
     

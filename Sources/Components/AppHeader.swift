@@ -11,13 +11,9 @@ public struct AppHeader: View {
     
     var textToDisplay: String
     
-    internal init(textToDisplay: String) {
+    init(textToDisplay: String) {
         self.textToDisplay = textToDisplay
     }
-    
-    /*init(textToDisplay: String) {
-        self.textToDisplay = textToDisplay
-    }*/
     
     public var body: some View {
         VStack(alignment: .leading, spacing: 4) {

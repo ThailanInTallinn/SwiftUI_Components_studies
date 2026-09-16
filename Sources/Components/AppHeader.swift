@@ -18,7 +18,7 @@ public struct AppHeader: View {
     public var body: some View {
         HStack {
             Text(self.textToDisplay)
-                    .font(.largeTitle)
+                .font(.system(size: 40, weight: .bold))
             Spacer()
         }
         .padding()

@@ -16,11 +16,15 @@ public struct AppHeader: View {
     }
     
     public var body: some View {
-        VStack(alignment: .leading, spacing: 4) {
+        HStack {
             Text(self.textToDisplay)
-                .font(.title)
+                    .font(.largeTitle)
             Spacer()
         }
         .padding()
     }
+}
+
+#Preview {
+    AppHeader("Movies")
 }
